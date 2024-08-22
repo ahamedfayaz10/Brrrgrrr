@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRRRGRRR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="one">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <div class="image">
+        <img src="head.png">
+        <h1>BRRRGRRR</h1>
+        <p>Hungry crab a BRRRGRRR</p>
+    </div>
+
+    <section class="two">
+        <div class="background"></div>
+        <div class="prices">
+            <h3>Prices</h3>
+            <p>Whole wheat bun ..... 20</p>
+            <p>Patty .................................. 80</p>
+            <p>Onions .............................. 20</p>
+            <p>Tomatoes ....................... 20</p>
+            <p>Lettuce ............................. 20</p>
+            <p>Cheese slice ................. 10</p>
+        </div>
+        <div class="ingredients-list">
+            <h3>Ingredients</h3>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h3>Choose what goes into your burger</h3>
+            <button id="patty">Patty</button>
+            <button id="cheese">Cheese</button>
+            <button id="tomatoes">Tomatoes</button>
+            <button id="onions">Onions</button>
+            <button id="lettuce">Lettuce</button>
+        </div>
+
+        <div class="outer-inr">
+            <div class="inr">
+                <p>current Order Total</p>
+                <h2 id="price">INR 30</h2>
+                <p>To Pay</p>
+                <button onclick="show()">Pay and receive order</button>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popup">
+        <p>Your order has been placed successfully!</p>
+        <button onclick="cancel()">Ok</button>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

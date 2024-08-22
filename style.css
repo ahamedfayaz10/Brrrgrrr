@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.one{
+    display: flex;
+    justify-content: space-around;
+}
+
+.one div{
+    background-color: rgb(231, 212, 40);
+    height: 170px;
+    width: 70px;
+}
+
+.two .background{
+    background-color: black;
+    height: 350px;
+    opacity: 0.8;
+    margin: 10px 0;
+}
+
+
+.image{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(231, 212, 40);
+    color: rgb(231, 212, 40);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    z-index: 1;
+    background-color: white;
+}
+
+.image h1{
+    color: brown;
+    
+}
+
+.image img{
+    width: 160px;
+    height: 140px;
+    border-radius: 40%;
+    margin-top: 20px;
+}
+
+.image p{
+    font-size: small;
+    font-weight: bold;
+}
+
+.two .prices h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.two .prices{
+    width: 160px;
+    height: 200px;
+    background-color: black;
+    border: 10px solid orange;
+    padding: 10px;
+    color: white;
+    font-size: .8em;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: 12%;
+    transform: translateY(-50%);
+}
+
+.two .ingredients-list{
+    background-color: #fff;
+    width: 120px;
+    height: 180px;
+    transform: skewX(-10deg);
+    padding: 10px;
+    position: absolute;
+    right: 32%;
+    top: 45%;
+}
+
+.two .ingredients-list h3{
+    text-align: center;
+    margin: 15px 0 5px 0;
+}
+
+.two .ingredients-list p{
+    font-size: 1em;
+}
+
+footer{
+    background-color: #ccc;
+    height: 200px;
+    margin-top: 10px;
+}
+
+footer .container{
+    background-color: white;
+    padding: 10px;
+    width:500px;
+    position: absolute;
+    left: 7%;
+}
+
+footer .container h3{
+    margin-bottom: 15px;
+}
+
+footer .container button{
+    padding: 15px 20px;
+    border: 1px solid #bbb;
+    border-bottom: 5px solid #aaa;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+.outer-inr{
+    background-color: #fff;
+    width: 350px;
+    padding: 5px;
+    position: absolute;
+    right: 10%;
+}
+
+.outer-inr .inr{
+    background-color: black;
+    height: 120px;
+    padding: 15px;
+    color: #fff;
+    position: relative;
+}
+
+.outer-inr .inr button{
+    padding: 10px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.popup{
+    padding: 20px;
+    background: #fff;
+    color: #555;
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    text-align: center;
+    display: none;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.popup button{
+    padding: 7px 15px;
+    background-color: blue;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+
+
+
+
+
